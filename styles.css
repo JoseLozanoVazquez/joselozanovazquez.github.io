@@ -1,62 +1,53 @@
 ﻿body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
-    padding-top: 70px; /* Espacio para que el header no tape el contenido */
-    padding-bottom: 80px; /* Espacio para que el contenido no se esconda detrás del footer */
+    padding-top: 70px; /* Espacio para el header fijo */
+    padding-bottom: 80px; /* Espacio para el footer fijo */
 }
 
-.navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    padding: 80px 20px;
+/* Header personalizado */
+.custom-header {
     background-color: #002f6c; /* Azul rey oscuro */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header animado (opcional si quieres que flote al hover) */
+header {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     margin-bottom: 50px;
     text-align: center;
     transition: transform 0.3s ease;
 }
 
-header:hover {
-    transform: translateY(-5px);
-}
+    header:hover {
+        transform: translateY(-5px);
+    }
 
+/* Tarjetas animadas */
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 16px;
 }
 
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
 
-footer {
+/* Footer personalizado */
+.custom-footer {
     background-color: #000000; /* Fondo negro */
     border-top: 1px solid #333333;
-    padding: 20px;
-    border-radius: 12px 12px 0 0;
-    margin-top: 50px;
 }
 
 footer a {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-footer a:hover {
-    color: #0a66c2; /* Azul oficial de LinkedIn */
-    transform: translateY(-3px);
-}
-
-.custom-header {
-    background-color: #002f6c; /* Azul rey oscuro */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.custom-footer {
-    background-color: #000000; /* Fondo negro */
-    border-top: 1px solid #333333;
-}
-
+    footer a:hover {
+        color: #0a66c2; /* Azul LinkedIn para todos los íconos al pasar el mouse */
+        transform: translateY(-3px);
+    }
