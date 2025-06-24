@@ -9,7 +9,7 @@ body {
 
 /* Header */
 .custom-header {
-    background-color: #111111 !important; /* Negro suave para header */
+    background-color: #1a1a1a !important; /* Negro suave para header */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
