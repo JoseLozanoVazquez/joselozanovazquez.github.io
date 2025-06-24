@@ -19,19 +19,19 @@ header {
     transition: transform 0.3s ease;
 }
 
-    header:hover {
-        transform: translateY(-5px);
-    }
+header:hover {
+    transform: translateY(-5px);
+}
 
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 16px;
 }
 
-    .card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
 footer {
     background-color: #e9ecef;
@@ -48,3 +48,14 @@ footer a:hover {
     color: #0a66c2; /* Azul oficial de LinkedIn */
     transform: translateY(-3px);
 }
+
+.custom-header {
+    background-color: #002f6c; /* Azul rey oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-footer {
+    background-color: #000000; /* Fondo negro */
+    border-top: 1px solid #333333;
+}
+
