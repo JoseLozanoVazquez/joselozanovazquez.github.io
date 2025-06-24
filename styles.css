@@ -34,7 +34,8 @@ header:hover {
 }
 
 footer {
-    background-color: #e9ecef;
+    background-color: #000000; /* Fondo negro */
+    border-top: 1px solid #333333;
     padding: 20px;
     border-radius: 12px 12px 0 0;
     margin-top: 50px;
