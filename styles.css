@@ -1,6 +1,8 @@
 ﻿body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
+    padding-top: 70px; /* Espacio para que el header no tape el contenido */
+    padding-bottom: 80px; /* Espacio para que el contenido no se esconda detrás del footer */
 }
 
 .navbar {
