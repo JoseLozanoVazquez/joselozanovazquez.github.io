@@ -49,11 +49,11 @@ body {
 
 /* Cuadro blanco */
 .hero-content {
-    background-color: rgba(255, 255, 255, 0.95); /* Blanco con 90% opacidad */
+    background-color: rgba(255, 255, 255, 1); /* Blanco con 90% opacidad */
     color: #111111;
     padding: 15px 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     max-width: 400px;
     text-align: center;
     z-index: 1;
@@ -62,7 +62,7 @@ body {
 
     /* Título dentro del cuadro */
     .hero-content h1 {
-        font-size: 2 rem;
+        font-size: 2.5 rem;
         margin: 0;
     }
 
