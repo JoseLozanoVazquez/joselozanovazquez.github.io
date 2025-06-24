@@ -115,13 +115,35 @@ footer a {
         transform: translateY(-3px);
     }
 
-/* Responsividad */
+
+/* Responsive para pantallas pequeñas */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 3rem;
+    .hero-content {
+        padding: 10px 20px;
+        max-width: 300px;
     }
 
-    .hero p {
-        font-size: 1.2rem;
+        .hero-content h1 {
+            font-size: 1.6rem;
+        }
+
+    .hero-subtext {
+        font-size: 1rem;
+    }
+}
+
+/*  Responsive para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .hero-content {
+        padding: 8px 15px;
+        max-width: 90%; /* ocupa casi todo el ancho */
+    }
+
+        .hero-content h1 {
+            font-size: 1.4rem;
+        }
+
+    .hero-subtext {
+        font-size: 0.9rem;
     }
 }
