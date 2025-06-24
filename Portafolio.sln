@@ -5,12 +5,14 @@ VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portafolio", "Portafolio", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
+		_index.html = _index.html
 		index.html = index.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{23E4EABB-CDC2-4429-AEDB-5286E7B4B336}"
 	ProjectSection(SolutionItems) = preProject
-		styles.css = styles.css
+		css\_styles.css = css\_styles.css
+		css\styles.css = css\styles.css
 	EndProjectSection
 EndProject
 Global
