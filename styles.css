@@ -37,3 +37,12 @@ footer {
     border-radius: 12px 12px 0 0;
     margin-top: 50px;
 }
+
+footer a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    color: #0a66c2; /* Azul oficial de LinkedIn */
+    transform: translateY(-3px);
+}
