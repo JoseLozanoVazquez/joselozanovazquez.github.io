@@ -1,23 +1,32 @@
 ﻿/* Estilo global */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4; /* Gris muy claro para un fondo relajante */
+    background-color: #f8f9fa; /* Fondo gris muy claro */
     color: #333333;
-    padding-top: 70px; /* Espacio para el header fijo */
-    padding-bottom: 80px; /* Espacio para el footer fijo */
+    padding-top: 70px; /* Espacio para header fijo */
+    padding-bottom: 80px; /* Espacio para footer fijo */
 }
 
 /* Header */
 .custom-header {
-    background-color: #002f6c !important; /* Azul rey oscuro */
+    background-color: #111111 !important; /* Negro suave para header */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+    .nav-link:hover {
+        color: #cccccc !important; /* Gris claro al pasar el mouse */
+    }
 
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-color: #e8eaf6; /* Azul suave de fondo */
-    color: #002f6c; /* Azul rey oscuro para contraste */
+    background-color: #f8f9fa; /* Mismo gris claro para uniformidad */
+    color: #111111; /* Negro suave */
 }
 
     .hero h1 {
@@ -46,6 +55,7 @@ body {
     background-color: white;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 12px;
+    border: 1px solid #dddddd;
 }
 
     .project-card:hover {
@@ -55,7 +65,7 @@ body {
 
 /* Footer */
 .custom-footer {
-    background-color: #000000 !important;
+    background-color: #000000 !important; /* Negro puro */
     border-top: 1px solid #333333;
 }
 
@@ -65,11 +75,11 @@ footer a {
 }
 
     footer a:hover {
-        color: #0a66c2 !important;
+        color: #999999 !important; /* Gris suave al hover */
         transform: translateY(-3px);
     }
 
-/* Responsividad extra */
+/* Responsividad */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 3rem;
