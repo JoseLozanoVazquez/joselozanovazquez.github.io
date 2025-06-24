@@ -9,17 +9,17 @@ body {
 
 /* Header */
 .custom-header {
-    background-color: #1a1a1a !important; /* Negro suave para header */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff !important; /* Header blanco puro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra muy ligera */
 }
 
 .navbar-brand,
 .nav-link {
-    color: #ffffff !important; /* Texto blanco */
+    color: #333333 !important; /* Texto gris oscuro para contraste */
 }
 
     .nav-link:hover {
-        color: #cccccc !important; /* Gris claro al pasar el mouse */
+        color: #555555 !important; /* Gris medio al pasar el mouse */
     }
 
 /* Hero Section */
@@ -65,7 +65,7 @@ body {
 
 /* Footer */
 .custom-footer {
-    background-color: #000000 !important; /* Negro puro */
+    background-color: rgba(0, 0, 0, 0.75) !important; /* Footer negro opaco */
     border-top: 1px solid #333333;
 }
 
