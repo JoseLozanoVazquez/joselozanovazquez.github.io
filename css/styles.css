@@ -1,53 +1,81 @@
-﻿    body {
+﻿/* Estilo global */
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f4f4f4; /* Gris muy claro para un fondo relajante */
+    color: #333333;
     padding-top: 70px; /* Espacio para el header fijo */
     padding-bottom: 80px; /* Espacio para el footer fijo */
-    }
+}
 
-    /* Header personalizado */
-    .custom-header {
+/* Header */
+.custom-header {
     background-color: #002f6c !important; /* Azul rey oscuro */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-color: #e8eaf6; /* Azul suave de fondo */
+    color: #002f6c; /* Azul rey oscuro para contraste */
+}
+
+    .hero h1 {
+        font-size: 5rem;
+        font-weight: bold;
     }
 
-    /* Header animado (opcional si quieres que flote al hover) */
-    header {
-    padding: 80px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    margin-bottom: 50px;
-    text-align: center;
-    transition: transform 0.3s ease;
+    .hero p {
+        font-size: 1.5rem;
+        color: #555555;
     }
 
-    header:hover {
-    transform: translateY(-5px);
-    }
+/* Sección Sobre Mí */
+#about h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
-    /* Tarjetas animadas */
-    .card {
+#about p {
+    font-size: 1.1rem;
+    color: #555555;
+}
+
+/* Tarjetas de proyectos */
+.project-card {
+    background-color: white;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 16px;
+    border-radius: 12px;
+}
+
+    .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     }
 
-    .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
+/* Footer */
+.custom-footer {
+    background-color: #000000 !important;
+    border-top: 1px solid #333333;
+}
 
-    /* Footer personalizado */
-    .custom-footer {
-    background-color: #000000 !important; /* Fondo negro */
-    border-top: 1px solid #333333 !important;
-    }
-
-    footer a {
+footer a {
     transition: color 0.3s ease, transform 0.3s ease;
-    }
+    color: white !important;
+}
 
     footer a:hover {
-    color: #0a66c2; /* Azul LinkedIn para todos los íconos al pasar el mouse */
-    transform: translateY(-3px);
+        color: #0a66c2 !important;
+        transform: translateY(-3px);
     }
+
+/* Responsividad extra */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}

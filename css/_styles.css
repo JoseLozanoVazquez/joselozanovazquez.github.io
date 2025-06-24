@@ -1,0 +1,53 @@
+﻿    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 70px; /* Espacio para el header fijo */
+    padding-bottom: 80px; /* Espacio para el footer fijo */
+    }
+
+    /* Header personalizado */
+    .custom-header {
+    background-color: #002f6c !important; /* Azul rey oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header animado (opcional si quieres que flote al hover) */
+    header {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    }
+
+    header:hover {
+    transform: translateY(-5px);
+    }
+
+    /* Tarjetas animadas */
+    .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 16px;
+    }
+
+    .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Footer personalizado */
+    .custom-footer {
+    background-color: #000000 !important; /* Fondo negro */
+    border-top: 1px solid #333333 !important;
+    }
+
+    footer a {
+    transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    footer a:hover {
+    color: #0a66c2; /* Azul LinkedIn para todos los íconos al pasar el mouse */
+    transform: translateY(-3px);
+    }
