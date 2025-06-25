@@ -139,6 +139,7 @@ nav a {
         width: 100%;
         border-radius: 8px;
         margin-bottom: 1rem;
+        opacity: 0.9; /* Opacidad al 90% */
         background-color: rgba(255,255,255,0.7);
         backdrop-filter: blur(4px);
     }
