@@ -1,7 +1,5 @@
 ﻿/* Estilo global */
 body {
-    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 80px;  Espacio para footer fijo */
     font-family: 'Poppins', sans-serif;
     background-color: #f8f9fa; /* Fondo gris muy claro */
     padding-top: 70px; /* Espacio para header fijo */
@@ -40,7 +38,7 @@ nav a {
 
 
 /* Header */
-    .custom-header {
+.custom-header {
     background-color: #ffffff !important; /* Header blanco puro */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0); /* Sombra muy ligera */
 }
