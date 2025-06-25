@@ -5,10 +5,17 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Jose Lozano</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true, duration: 800 });
+    </script>
+
+    
 </head>
 
 <body>
@@ -37,7 +44,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero hero-overlay">
         <div class="hero-content">
             <h1>José Lozano</h1>
         </div>
@@ -47,7 +54,7 @@
     </section>
 
     <!-- About Me -->
-    <section id="about" class="container my-5 py-5">
+    <section id="about" class="container my-5 py-5" data-aos="fade-up">
         <div class="row align-items-center">
             <div class="col-md-4 text-center">
                 <img src="img/profile.jpg" alt="Jose Lozano" class="img-fluid rounded-circle shadow-sm" style="max-width: 200px;">
@@ -65,7 +72,7 @@
     
 
     <!-- Projects -->
-    <section id="projects" class="container my-5 py-5">
+    <section id="projects" class="container my-5 py-5" data-aos="fade-up">
         <h2 class="text-center mb-5">Proyectos</h2>
         <div class="row g-4">
             <div class="col-md-6 col-lg-4">

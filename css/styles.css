@@ -38,6 +38,16 @@ nav a {
         color: gray;
     }
 
+a, .btn {
+    transition: all 0.2s ease;
+}
+
+    a:hover, .btn:hover {
+        color: #555;
+        transform: translateY(-2px);
+    }
+
+
 
 /* Header */
 .custom-header {
@@ -64,6 +74,11 @@ nav a {
     flex-direction: column;
     padding: 20px;
     overflow: hidden;
+}
+
+.hero-overlay {
+    background-color: rgba(255,255,255,0.7);
+    backdrop-filter: blur(4px);
 }
 
     /* Imagen con opacidad */
