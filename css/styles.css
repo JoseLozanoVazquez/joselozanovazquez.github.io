@@ -177,7 +177,8 @@ footer a {
     }
 
         .hero-content h1 {
-            font-size: 1.6rem;
+            white-space: normal;
+            font-size: 2rem;
         }
 
     .hero-subtext {
