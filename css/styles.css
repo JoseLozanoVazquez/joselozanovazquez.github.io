@@ -1,11 +1,43 @@
 ﻿/* Estilo global */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 80px;  Espacio para footer fijo */
+    font-family: 'Poppins', sans-serif;
     background-color: #f8f9fa; /* Fondo gris muy claro */
-    color: #333333;
     padding-top: 70px; /* Espacio para header fijo */
-    /*padding-bottom: 80px;  Espacio para footer fijo */
+    box-sizing: border-box;
+    color: #222; /* Negro suave */
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+    nav a:hover {
+        color: gray;
+    }
+
 
 /* Header */
 .custom-header {
