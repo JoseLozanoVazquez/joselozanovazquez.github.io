@@ -31,13 +31,11 @@ nav a {
     font-weight: 600;
     text-decoration: none;
     color: black;
-    /*transition: color 0.3s ease;*/
-    transition: all 0.2s ease;
+    transition: color 0.3s ease;
 }
 
     nav a:hover {
-        /*color: gray;*/
-        color: #555;
+        color: gray;
         transform: translateY(-2px);
     }
 
