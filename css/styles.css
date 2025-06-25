@@ -31,26 +31,19 @@ nav a {
     font-weight: 600;
     text-decoration: none;
     color: black;
-    transition: color 0.3s ease;
-}
-
-    nav a:hover {
-        color: gray;
-    }
-
-a, .btn {
+    /*transition: color 0.3s ease;*/
     transition: all 0.2s ease;
 }
 
-    a:hover, .btn:hover {
+    nav a:hover {
+        /*color: gray;*/
         color: #555;
         transform: translateY(-2px);
     }
 
 
-
 /* Header */
-.custom-header {
+    .custom-header {
     background-color: #ffffff !important; /* Header blanco puro */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0); /* Sombra muy ligera */
 }
