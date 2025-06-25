@@ -45,11 +45,11 @@ nav a {
 
 .navbar-brand,
 .nav-link {
-    color: #333333 !important; /* Texto gris oscuro para contraste */
+    color: #555555 !important; /* Texto gris oscuro para contraste */
 }
 
     .nav-link:hover {
-        color: #555555 !important; /* Gris medio al pasar el mouse */
+        color: black !important; /* Gris medio al pasar el mouse */
     }
 
 /* Hero Section */
