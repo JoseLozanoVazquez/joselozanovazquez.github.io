@@ -10,7 +10,7 @@ body {
 /* Header */
 .custom-header {
     background-color: #ffffff !important; /* Header blanco puro */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra muy ligera */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0); /* Sombra muy ligera */
 }
 
 .navbar-brand,
